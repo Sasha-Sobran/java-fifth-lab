@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PostalCodeFinder {
-    private static final Pattern POSTAL_CODE_PATTERN = Pattern.compile("\\b[0-8]\\d{4}\\b");
+    private static final Pattern POSTAL_CODE_PATTERN = Pattern.compile("^([0-8]\\d{4})");
 
     private final String text;
     private final List<Integer> range;

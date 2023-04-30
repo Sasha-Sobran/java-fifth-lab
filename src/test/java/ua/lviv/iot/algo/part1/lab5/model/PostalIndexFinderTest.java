@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PostalIndexFinderTest {
+
     @Test
     public void testFindPostalCodes() {
         String inputText = "Are there any Ukrainian postal codes among these: 12334, 98324, 12441?";
